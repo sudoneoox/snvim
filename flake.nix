@@ -1,5 +1,5 @@
 {
-  description = "diego's kitty configuration";
+  description = "diego's nvim configuration";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -31,4 +31,5 @@
       });
     };
 }
+
 
