@@ -1,0 +1,57 @@
+return {
+    {
+        "williamboman/mason.nvim",
+        opts = {
+            automatic_installation = true,
+            ensure_installed = {
+                -- Language servers
+                "gopls",
+                "tailwindcss-language-server",
+                "pyright",
+                "lua-language-server",
+                "bash-language-server",
+                "clangd",
+                "css-lsp",
+                "jdtls",
+                "json-lsp",
+                "ltex-ls",
+                "marksman",
+                "matlab-language-server",
+                "neocmakelsp",
+                "rust-analyzer",
+                "solargraph",
+                "sqlls",
+                "typescript-language-server",
+                "yaml-language-server",
+                -- Formatters
+                "sql-formatter",
+                "prettier",
+                "black",
+                "clang-format",
+                "cmakelang",
+                "eslint_d",
+                "markdownlint",
+                "rustfmt",
+                "shfmt",
+                "stylua",
+                "taplo",
+                -- Linters
+                "rubocop",
+                "ruff",
+                "golangci-lint",
+                "cpplint",
+                "shellcheck",
+                "stylelint",
+                -- Debuggers and debug adapters
+                "codelldb",
+                "js-debug-adapter",
+                "debugpy",
+                "delve",
+                "java-debug-adapter",
+            },
+        },
+        keys = {
+            { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" },
+        },
+    },
+}
